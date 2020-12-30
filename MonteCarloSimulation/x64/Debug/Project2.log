@@ -1,0 +1,11 @@
+﻿  main_04_RealTest.cpp
+c:\users\anar alimzade\desktop\project2\soldier.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  Simulation.cpp
+c:\users\anar alimzade\desktop\project2\soldier.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+c:\users\anar alimzade\desktop\project2\simulation.cpp(20): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\anar alimzade\desktop\project2\simulation.cpp(141): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Soldier.cpp
+c:\users\anar alimzade\desktop\project2\soldier.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+c:\users\anar alimzade\desktop\project2\soldier.cpp(19): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  Generating Code...
+  Project2.vcxproj -> C:\Users\Anar Alimzade\Desktop\Project2\x64\Debug\Project2.exe

@@ -1,0 +1,48 @@
+Anar Alimzade
+Mert Ugur Karatas
+Ibrahim Farajzade
+
+      -
+
+
+	// changes soldier and enemy locations if shoot attempt failed
+
+		void positionChanged(Soldier* soldier, const std::list<Soldier*> enemy);
+
+	// call probability function and try to kill the enemy object
+
+		void killSoldierAttempt(const Soldier* soldier, Soldier* enemy);
+
+	// try to shoot the enemy object
+
+		bool shootSoldierAttempt(const Soldier* soldier, const std::list<Soldier*> enemy);
+		
+	// change location of the soldier object
+
+		void changeSoldierLocation(Soldier* soldier, const std::list<Soldier*> enemy);
+
+	// check if team has lost all the soldiers
+
+		bool checkLost(const std::list<Soldier*> side) const;
+
+	// return the number of remaining soldiers
+
+		int remainingSoldiers(const std::list<Soldier*> side) const;
+
+
+//initialize your model data
+	initialLocation = location;
+	initialSpeed = speed;
+	initialProbabilityOfKill = probabilityOfKill;
+	initialRange = range;
+	initialState = true;
+
+//do initialization to return everything to its initial status
+	currentLocation = initialLocation;
+	currentSpeed = initialSpeed;
+	currentProbabilityOfKill = initialProbabilityOfKill;
+	currentRange = initialRange;
+	currentState = initialState;
+
+	temporaryLocation = initialLocation;
+	temporaryState = initialState;
